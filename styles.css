@@ -1,0 +1,85 @@
+/*
+font-family: 'Press Start 2P', cursive;
+font-family: 'Ubuntu', sans-serif;
+*/
+
+
+/*
+--prussian-blue: #1c3144;
+--red-pantone: #e63946;
+--avocado: #5c8001;
+--maize: #ffe548;
+--columbia-blue: #bcd4de;
+*/
+
+/* General CSS */
+body {
+    background-color: #1C3144;
+    text-align: center;
+    font-family: 'Press Start 2P', cursive;
+    color: #FFE548;
+}
+
+#header-title {
+    font-size: 2rem;
+    margin: 3rem;
+}
+
+.level {
+  font-size: 2rem;
+  margin: 2rem;
+}
+
+.record-title {
+  font-size: 1.5rem;
+  margin: 2rem;
+}
+
+.name-title {
+  font-size: 0.75rem;
+}
+
+.container {
+    display: block;
+    width: 100%;
+    margin: auto;
+}
+
+
+/* Buttons */
+  .btn {
+    margin: 2rem;
+    display: inline-block;
+    width: 15rem; /*15rem*/
+    height: 15rem; /*15rem*/
+    border: 0.8rem solid black;
+    border-radius: 25%;
+  }
+
+  .green {
+    background-color: green;
+  }
+
+  .red {
+    background-color: red;
+  }
+
+  .yellow {
+    background-color: yellow;
+  }
+
+  .blue {
+    background-color: blue;
+  }
+
+
+ /* Animations */
+  .pressed {
+    box-shadow: 0 0 20px white;
+    background-color: grey;
+  }
+
+  .game-over {
+    background-color: red;
+    opacity: 0.8;
+  }
